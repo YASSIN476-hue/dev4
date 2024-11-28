@@ -1,11 +1,12 @@
+-- Active: 1729248144696@@127.0.0.1@3306@gestionproject3
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Oct 13, 2024 at 09:12 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Hôte : 127.0.0.1
+-- Généré le : jeu. 21 nov. 2024 à 16:54
+-- Version du serveur : 10.4.28-MariaDB
+-- Version de PHP : 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,47 +19,34 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `auth`
+-- Base de données : `stagiaires`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Structure de la table `stagiaires`
 --
 
-CREATE TABLE `users` (
-  `id` int(100) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `password` varchar(300) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `created_at` date NOT NULL
+CREATE TABLE `stagiaires` (
+  `matStagiaire` int(11) NOT NULL,
+  `nomStagiaire` varchar(50) DEFAULT NULL,
+  `prenomStagiaire` varchar(50) DEFAULT NULL,
+  `filiereStagiaire` varchar(50) DEFAULT NULL,
+  `anneeEtude` int(11) DEFAULT NULL,
+  `typeBac` varchar(50) DEFAULT NULL,
+  `anneeBac` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
---
-
-
---
--- Indexes for dumped tables
+-- Index pour les tables déchargées
 --
 
 --
--- Indexes for table `users`
+-- Index pour la table `stagiaires`
 --
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `stagiaires`
+  ADD PRIMARY KEY (`matStagiaire`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
