@@ -6,7 +6,7 @@
     
     $pwd=isset($_POST['pwd'])?$_POST['pwd']:"";
 
-    $requete="select iduser,login,email,role,etat 
+    $requete="select id,login,email,role,etat 
                 from utilisateur where login='$login' 
                 and pwd=MD5('$pwd')";
     
