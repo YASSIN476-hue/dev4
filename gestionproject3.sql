@@ -1,4 +1,3 @@
--- Active: 1729248144696@@127.0.0.1@3306@gestionproject3
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/

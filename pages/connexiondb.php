@@ -1,8 +1,12 @@
+
+
+
+
 <?php
 try {
 
     $pdo = new PDO(
-        "mysql:host=localhost;dbname=gestion stagiaires",
+        "mysql:host=localhost;dbname=gestionproject3",
         "root",
         ""
     );
