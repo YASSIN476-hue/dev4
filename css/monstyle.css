@@ -1,9 +1,11 @@
+
+
 /*+++++++++ debut all page +++++++++*/
-.clickable {
+.clickable{
     cursor: pointer;
 }
 
-.margetop60 {
+.margetop60{
     margin-top: 60px;
 }
 
@@ -12,8 +14,7 @@ body {
     background-color: rgb(240, 238, 238);
     font-size: 16px;
 }
-
-h1 {
+h1{
     font-size: 40px;
     color: #2980b9;
 }
@@ -43,27 +44,26 @@ h1 {
 
 /*  +++++++ debut edit pwd ++++++   */
 
-.editpwd-page h1,
-h2 {
+.editpwd-page h1,h2{
     color: #2e6da4;
 }
 
-.editpwd-page h1 {
+.editpwd-page h1{
     font-size: 45px;
 }
 
 
-.editpwd-page h2 {
+.editpwd-page h2{
     font-size: 40px;
     font-weight: bold;
 }
 
-.editpwd-page form {
+.editpwd-page form{
     width: 400px;
     margin: auto;
 }
 
-.editpwd-page input {
+.editpwd-page input{
     margin-bottom: 20px;
 }
 
@@ -72,8 +72,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.show-old-pwd,
-.show-new-pwd {
+.show-old-pwd,.show-new-pwd {
     position: absolute;
     top: 0px;
     right: -35px;
@@ -86,13 +85,9 @@ h2 {
 
 /*+++++++++  Debut nouvel utilisateur ***********/
 
-.user-page form {
+.user-page form{
     width: 400px;
 }
-
-
-/*+++++++++  fin nouvel utilisateur ***********/
-
 
 
 /*+++++++++  fin nouvel utilisateur ***********/
